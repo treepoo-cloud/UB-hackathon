@@ -2,7 +2,7 @@
 
 import panda
 crontab -e
-30 08 * * * echo
+30 8 * * * echo
 #example, you can also just get the data directly from the curl
 CSV_FILE="https://covidtracking.com/data/download/all-states-history.csv"
 
